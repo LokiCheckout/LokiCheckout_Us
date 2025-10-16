@@ -1,6 +1,6 @@
 # LokiCheckout_Us
 
-**This Magento 2 module is an add-on package to the LokiCheckout.**
+**This Magento 2 module is an add-on package for adding some settings that feel good for the US market. Note that it is not required. It changes a couple of field labels and adds a grid layout `us_grid`. Both can also be defined in a custom project-specific module.**
 
 ## Installation
 Install this package via composer:
