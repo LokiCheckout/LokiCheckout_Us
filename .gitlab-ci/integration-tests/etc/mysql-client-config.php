@@ -1,5 +1,4 @@
-<?php // phpcs:ignoreFile
-
+<?php
 return [
     'client-mariadb' => [
         'disable-ssl',
