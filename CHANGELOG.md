@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 20 February 2026
+### Fixed
+- Fix wrong layout paths for blocks to add field labels
+
 ## [1.0.1] - 23 January 2026
 ### Fixed
 - Remove blank line
