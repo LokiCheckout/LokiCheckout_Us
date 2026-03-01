@@ -1,4 +1,5 @@
 {
+    "description": "US settings for LokiCheckout",
     "sequence": [
         "LokiCheckout_Core"
     ],
