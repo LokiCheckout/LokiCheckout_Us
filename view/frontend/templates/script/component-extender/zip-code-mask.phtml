@@ -1,7 +1,7 @@
 <script>
-    LokiComponentExtender.add('ExampleMixin', () => {
+    LokiComponentExtender.add('ZipCodeMaskMixin', () => {
         return {
-            lokiCheckoutZipCodeMask(input) {
+            zipCodeMask(input) {
                 const digits = input.replace(/\D/g, '');
 
                 return digits.length > 5
