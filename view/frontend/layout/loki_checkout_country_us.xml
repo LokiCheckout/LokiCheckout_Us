@@ -18,9 +18,10 @@
         <referenceBlock name="loki-checkout.shipping.address.postcode">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">ZIP code</argument>
-                <argument name="placeholder" xsi:type="string">12345</argument>
+                <argument name="placeholder" xsi:type="string">12345(-9999)</argument>
+                <argument name="comment" xsi:type="string" translate="true">Enter either a ZIP code or a ZIP+4</argument>
                 <argument name="field_attributes" xsi:type="array">
-                    <item name="x-mask" xsi:type="string">99999-9999</item>
+                    <item name="x-mask:dynamic" xsi:type="string">lokiCheckoutZipCodeMask</item>
                 </argument>
             </arguments>
         </referenceBlock>
@@ -49,8 +50,9 @@
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">ZIP code</argument>
                 <argument name="placeholder" xsi:type="string">12345(-9999)</argument>
+                <argument name="comment" xsi:type="string" translate="true">Enter either a ZIP code or a ZIP+4</argument>
                 <argument name="field_attributes" xsi:type="array">
-                    <item name="x-mask" xsi:type="string">lokiCheckoutZipCodeMask</item>
+                    <item name="x-mask:dynamic" xsi:type="string">lokiCheckoutZipCodeMask</item>
                 </argument>
             </arguments>
         </referenceBlock>

@@ -1,0 +1,4 @@
+"Not a valid postcode","Not a valid ZIP code"
+"Postcode ""%1"" has invalid format","ZIP code ""%1"" has invalid format"
+"Postcode ""%1"" needs to be in the format ""%2""","ZIP code ""%1"" needs to be in the format ""%2"""
+"Postcode ""%1"" needs to be in one of the following formats: %2","ZIP code ""%1"" needs to be in one of the following formats: %2"
