@@ -1,0 +1,13 @@
+<script>
+    LokiComponentExtender.add('ExampleMixin', () => {
+        return {
+            lokiCheckoutZipCodeMask(input) {
+                const digits = input.replace(/\D/g, '');
+
+                return digits.length > 5
+                    ? '99999-9999'
+                    : '99999';
+            }
+        }
+    });
+</script>
