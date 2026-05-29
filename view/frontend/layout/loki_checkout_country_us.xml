@@ -62,12 +62,5 @@
                 <argument name="field_label" xsi:type="string" translate="true">State</argument>
             </arguments>
         </referenceBlock>
-
-        <referenceBlock name="loki-components.script.component-extender">
-            <block
-                name="loki-checkout-us.script.component-extender.zip-code-mask"
-                template="LokiCheckout_Us::script/component-extender/zip-code-mask.phtml"
-            />
-        </referenceBlock>
     </body>
 </page>
