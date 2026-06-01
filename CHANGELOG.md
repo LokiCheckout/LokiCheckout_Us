@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.3] - 29 May 2026
+## [1.0.3] - 01 June 2026
 ### Fixed
 - Add translations for "ZIP code"
 - Apply mask for ZIP code and ZIP+4
