@@ -4,7 +4,7 @@
     "description": "N/A",
     "keywords": [
         "loki-checkout",
-        "loki-checkout-category-language"
+        "loki-checkout-category-country"
     ],
     "type": "magento2-module",
     "require": {
