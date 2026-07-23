@@ -15,6 +15,24 @@
             </arguments>
         </referenceBlock>
 
+        <referenceBlock name="loki-checkout.shipping.address.street2">
+            <arguments>
+                <argument name="md_col_span" xsi:type="number">12</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="loki-checkout.shipping.address.street3">
+            <arguments>
+                <argument name="md_col_span" xsi:type="number">12</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="loki-checkout.shipping.address.city">
+            <arguments>
+                <argument name="md_col_span" xsi:type="number">6</argument>
+            </arguments>
+        </referenceBlock>
+
         <referenceBlock name="loki-checkout.shipping.address.postcode">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">ZIP code</argument>
@@ -43,6 +61,24 @@
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Apartment, suite, etc (optional)</argument>
                 <argument name="md_col_span" xsi:type="number">12</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="loki-checkout.billing.address.street2">
+            <arguments>
+                <argument name="md_col_span" xsi:type="number">12</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="loki-checkout.billing.address.street3">
+            <arguments>
+                <argument name="md_col_span" xsi:type="number">12</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="loki-checkout.billing.address.city">
+            <arguments>
+                <argument name="md_col_span" xsi:type="number">6</argument>
             </arguments>
         </referenceBlock>
 
