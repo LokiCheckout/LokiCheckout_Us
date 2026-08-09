@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4] - 09 August 2026
+### Fixed
+- Properly align street2 and city
+
 ## [1.0.3] - 01 June 2026
 ### Fixed
 - Add translations for "ZIP code"
