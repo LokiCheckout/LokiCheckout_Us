@@ -1,55 +1,6 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
     <body>
-        <referenceBlock name="loki-checkout.shipping.address.street0">
-            <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">Address</argument>
-                <argument name="md_col_span" xsi:type="number">12</argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.street1">
-            <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">Apartment, suite, etc (optional)</argument>
-                <argument name="md_col_span" xsi:type="number">12</argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.street2">
-            <arguments>
-                <argument name="md_col_span" xsi:type="number">12</argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.street3">
-            <arguments>
-                <argument name="md_col_span" xsi:type="number">12</argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.city">
-            <arguments>
-                <argument name="md_col_span" xsi:type="number">6</argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.postcode">
-            <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">ZIP code</argument>
-                <argument name="placeholder" xsi:type="string">12345(-9999)</argument>
-                <argument name="comment" xsi:type="string" translate="true">Enter either a ZIP code or a ZIP+4</argument>
-                <argument name="field_attributes" xsi:type="array">
-                    <item name="x-mask:dynamic" xsi:type="string">zipCodeMask</item>
-                </argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.region">
-            <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">State</argument>
-            </arguments>
-        </referenceBlock>
-
         <referenceBlock name="loki-checkout.billing.address.street0">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Address</argument>
