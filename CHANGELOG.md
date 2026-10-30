@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 30 October 2026
+### Fixed
+- Apply ZIP code mask only to the postcode field
+- Target LokiComponentExtender mixin by component name
+- Migrate to new address-specific and country-specific handles
+
 ## [1.0.4] - 09 August 2026
 ### Fixed
 - Properly align street2 and city
